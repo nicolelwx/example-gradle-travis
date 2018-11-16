@@ -24,7 +24,7 @@ configurations.all {
 
 //Most of these are here for the security results, not because they are actually used
 dependencies {
-	 compile group: 'org.apache.solr', name: 'solr-solrj', version: '6.4.0'
+	 compile group: 'org.wildfly', name: 'wildfly-undertow', version: '9.0.0.Beta1'
 }
 
 task wrapper(type: Wrapper) {
