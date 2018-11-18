@@ -24,7 +24,7 @@ configurations.all {
 
 //Most of these are here for the security results, not because they are actually used
 dependencies {
-	 compile group: 'com.github.junrar', name: 'junrar', version: '1.0.0'
+	 compile group: 'org.jenkins-ci.plugins', name: 'mailer', version: '1.20'
 }
 
 task wrapper(type: Wrapper) {
