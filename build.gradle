@@ -24,7 +24,7 @@ configurations.all {
 
 //Most of these are here for the security results, not because they are actually used
 dependencies {
-	 compile group: 'org.apache.wicket', name: 'wicket', version: '1.4.0'
+	 compile group: 'commons-fileupload', name: 'commons-fileupload', version: '1.2.2'
 }
 
 task wrapper(type: Wrapper) {
