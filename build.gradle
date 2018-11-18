@@ -24,7 +24,7 @@ configurations.all {
 
 //Most of these are here for the security results, not because they are actually used
 dependencies {
-	 compile group: 'org.springframework', name: 'spring-context', version: '4.1.2.RELEASE'
+	 compile group: 'org.picketlink', name: 'picketlink-federation', version: '2.6.0.CR5'
 }
 
 task wrapper(type: Wrapper) {
