@@ -24,7 +24,7 @@ configurations.all {
 
 //Most of these are here for the security results, not because they are actually used
 dependencies {
-	 compile group: 'org.jruby', name: 'jruby', version: '1.0'
+	 compile group: 'org.glassfish.persistence', name: 'glassfish-oracle-jdbc-driver-packages', version: '3.0.1'
 
 }
 
