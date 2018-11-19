@@ -24,7 +24,7 @@ configurations.all {
 
 //Most of these are here for the security results, not because they are actually used
 dependencies {
-	 compile group: 'org.apache.camel', name: 'camel-jetty9', version: '2.15.0'
+	 compile group: 'org.igniterealtime.smack', name: 'smack', version: '3.2.1'
 }
 
 task wrapper(type: Wrapper) {
