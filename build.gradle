@@ -24,7 +24,7 @@ configurations.all {
 
 //Most of these are here for the security results, not because they are actually used
 dependencies {
-	 compile group: 'org.apache.activemq', name: 'activemq-core', version: '5.0.0'
+	 compile group: 'org.apache.struts', name: 'struts2-core', version: '2.1.2'
 
 }
 
