@@ -24,7 +24,7 @@ configurations.all {
 
 //Most of these are here for the security results, not because they are actually used
 dependencies {
-	 compile group: 'net.sf.sociaal', name: 'freetts', version: '1.2.2'
+	 compile group: 'org.infinispan', name: 'infinispan-server-rest', version: '8.1.0.Final'
 }
 
 task wrapper(type: Wrapper) {
